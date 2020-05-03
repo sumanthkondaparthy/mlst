@@ -2,3 +2,7 @@
 var Faker = require('./lib');
 var faker = new Faker({ locales: require('./lib/locales') });
 module['exports'] = faker;
+console.log(faker.laptop.name());
+console.log(faker.laptop.processor());
+console.log(faker.laptop.price());
+
